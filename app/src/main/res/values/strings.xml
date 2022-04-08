@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TipsAndTricks</string>
+    <string name="add_text_here">Add text here</string>
+    <string name="dynamicallyAddLayout">Add text here</string>
+</resources>
