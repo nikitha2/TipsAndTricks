@@ -11,7 +11,7 @@
         android:theme="@style/Theme.TipsAndTricks">
         <activity
             android:name=".DynamicallyInflateView.InflateLayoutDynamicallyActivity"
-            android:label="@string/add_text_here"
+            android:label="@string/dynamicallyAddLayout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
