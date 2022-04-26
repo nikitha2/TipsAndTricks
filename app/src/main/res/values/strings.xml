@@ -2,4 +2,7 @@
     <string name="app_name">TipsAndTricks</string>
     <string name="add_text_here">Add text here</string>
     <string name="dynamicallyAddLayout">Dynamically Add Layout</string>
+    <string name="inflate_layout_dynamically">Inflate Layout Dynamically</string>
+    <string name="remove_observer_after_result">Remove Observer After Result</string>
+    <string name="tips_and_tricks">Tips and Tricks</string>
 </resources>

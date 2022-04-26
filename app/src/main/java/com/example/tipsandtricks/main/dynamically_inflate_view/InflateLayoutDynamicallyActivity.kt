@@ -1,4 +1,4 @@
-package com.example.tipsandtricks.DynamicallyInflateView
+package com.example.tipsandtricks.main.dynamically_inflate_view
 
 import android.os.Bundle
 import android.view.View
@@ -11,6 +11,8 @@ class InflateLayoutDynamicallyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inflate_layout_dynamically)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
     }
 
     override fun onResume() {
@@ -27,6 +29,11 @@ class InflateLayoutDynamicallyActivity : AppCompatActivity() {
         // Dynamically inflate view and add it to the linear layout
         val customViewImage: View = layoutInflater.inflate(R.layout.custom_view_image_layout, null)
         linearLayout.addView(customViewImage)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
 }

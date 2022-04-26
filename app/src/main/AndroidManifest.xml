@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tipsandtricks">
+    package="com.example.tipsandtricks" >
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TipsAndTricks">
+        android:theme="@style/Theme.TipsAndTricks" >
         <activity
-            android:name=".DynamicallyInflateView.InflateLayoutDynamicallyActivity"
-            android:label="@string/dynamicallyAddLayout"
-            android:exported="true">
+            android:name=".main.MainActivity"
+            android:exported="true"
+            android:label="@string/tips_and_tricks"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".main.dynamically_inflate_view.InflateLayoutDynamicallyActivity"
+            android:exported="true"
+            android:label="@string/dynamicallyAddLayout"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

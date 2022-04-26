@@ -1,4 +1,4 @@
-package com.example.tipsandtricks.DynamicallyInflateView
+package com.example.tipsandtricks.main.dynamically_inflate_view
 
 import android.content.Context
 import android.util.AttributeSet
